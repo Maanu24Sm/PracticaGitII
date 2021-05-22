@@ -58,4 +58,16 @@ public class PERSONAS {
     public void setLocalidad(String localidad){
         this.localidad = localidad;
     }
+    
+    //Metodo toString
+    @Override
+    public String toString(){
+        String mensaje="Datos de la Persona\n";
+        mensaje+="-------------------";
+        mensaje+="\nNombre: " + nombre;
+        mensaje+="\nApellido: " + apellido;
+        mensaje+="\nEdad: " + edad;
+        mensaje+="\nLocalidad: " + localidad;
+        return mensaje;
+    }
 }

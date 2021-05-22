@@ -18,11 +18,9 @@ public class PRACTICA_GITHUBII {
         
         PERSONAS anonimo = new PERSONAS();
         
-        System.out.println(anonimo.getEdad());
-        
         PERSONAS manu = new PERSONAS("Manuel", "Salvatierra", 21, "Armilla");
         
-        System.out.println(manu.getNombre());
+        System.out.println(manu.toString());
 
     }
     
