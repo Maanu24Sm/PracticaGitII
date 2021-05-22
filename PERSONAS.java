@@ -14,6 +14,7 @@ public class PERSONAS {
     private String nombre;
     private String apellido;
     private int edad;
+    private int FechaNacimiento;
     private String localidad;
     
     //Constructor por Defecto
@@ -21,6 +22,7 @@ public class PERSONAS {
         nombre = "";
         apellido = "";
         edad = 0;
+        FechaNacimiento = 0;
         localidad = "";
     }
     
@@ -42,6 +44,9 @@ public class PERSONAS {
     public int getEdad(){
         return edad;
     }
+    public int getFechaNacimiento(){
+        return FechaNacimiento;
+    }
     public String getLocalidad(){
         return localidad;
     }
@@ -54,6 +59,9 @@ public class PERSONAS {
     }
     public void setEdad(int edad){
         this.edad = edad;
+    }
+    public void setFechaNacimiento(int FechaNacimiento){
+        this.FechaNacimiento = FechaNacimiento;
     }
     public void setLocalidad(String localidad){
         this.localidad = localidad;
