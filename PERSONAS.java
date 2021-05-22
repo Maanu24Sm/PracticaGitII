@@ -10,12 +10,13 @@ package practica_githubii;
  * @author maanu_358j11i
  */
 public class PERSONAS {
-    
+    //Atributos
     private String nombre;
     private String apellido;
     private int edad;
     private String localidad;
     
+    //Constructor por Defecto
     public PERSONAS(){
         nombre = "";
         apellido = "";
@@ -23,6 +24,15 @@ public class PERSONAS {
         localidad = "";
     }
     
+    //Constructor por Parametros
+    public PERSONAS(String nombre, String apellido, int edad, String localidad){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.localidad = localidad;
+    }
+    
+    //GET & SET
     public String getNombre(){
         return nombre;
     }
