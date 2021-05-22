@@ -75,6 +75,7 @@ public class PERSONAS {
         mensaje+="\nNombre: " + nombre;
         mensaje+="\nApellido: " + apellido;
         mensaje+="\nEdad: " + edad;
+        mensaje+="\nFecha de nacimiento: " + FechaNacimiento;
         mensaje+="\nLocalidad: " + localidad;
         return mensaje;
     }
